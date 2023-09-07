@@ -1,0 +1,24 @@
+// moein parvizi : https://github.com/moeinparvizi
+// repetitious codes
+body{
+  overflow: hidden;
+  height: 100vh;
+
+  *{
+    margin: 0;padding: 0;box-sizing: border-box;
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+}
+
+//  ****************variable********************
+// colors
+$bg : #005FA3;
+$big :#1DB0FE;
+$small : #E8D498;
+$w : #fff;
+$b: #000;

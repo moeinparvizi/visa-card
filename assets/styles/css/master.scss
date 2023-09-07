@@ -1,1 +1,36 @@
-@import 'global'
+@import 'global';
+
+main {
+  background: $bg;
+  height: 100vh;
+  overflow: hidden;
+
+  >*{
+    position: absolute;
+  }
+  >span{
+    border-radius: 50%;
+    box-shadow: 0 0 30px $b;
+    transform: perspective(800px);
+  }
+  >.smallcircle{
+    background: $small;
+    width: 400px;
+    height: 400px;
+    top: 10%;
+    left: 10%;
+  }
+  >.bigcircle{
+    background: $big;
+    width: 600px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+  }
+  >.glass{
+    background: $w;
+    width: 400px;
+    height: 600px;
+    border-radius: 35px;
+  }
+}

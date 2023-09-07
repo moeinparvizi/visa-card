@@ -1,0 +1,51 @@
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body ul {
+  list-style: none;
+}
+body a {
+  text-decoration: none;
+}
+
+main {
+  background: #005FA3;
+  height: 100vh;
+  overflow: hidden;
+}
+main > * {
+  position: absolute;
+}
+main > span {
+  border-radius: 50%;
+  box-shadow: 0 0 30px #000;
+  transform: perspective(800px);
+}
+main > .smallcircle {
+  background: #E8D498;
+  width: 400px;
+  height: 400px;
+  top: 10%;
+  left: 10%;
+}
+main > .bigcircle {
+  background: #1DB0FE;
+  width: 600px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+}
+main > .glass {
+  background: #fff;
+  width: 400px;
+  height: 600px;
+  border-radius: 35px;
+}
+
+/*# sourceMappingURL=master.css.map */
