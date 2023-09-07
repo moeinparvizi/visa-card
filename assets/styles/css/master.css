@@ -3,8 +3,8 @@
   src: url("../fonts/PaytoneOne-Regular.ttf");
 }
 body {
-  overflow: hidden;
   height: 100vh;
+  overflow: hidden;
 }
 body * {
   margin: 0;
@@ -26,6 +26,7 @@ main {
 }
 main > *:not(div) {
   position: absolute;
+  transition: 1s;
 }
 main > span {
   border-radius: 50%;
@@ -34,16 +35,16 @@ main > span {
 }
 main > .smallcircle {
   background: #E8D498;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   top: 10%;
   left: 10%;
 }
 main > .bigcircle {
   background: #1DB0FE;
-  width: 600px;
-  height: 600px;
-  top: 50%;
+  width: 400px;
+  height: 400px;
+  top: 38%;
   left: 50%;
 }
 main > .glass {

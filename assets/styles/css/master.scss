@@ -9,6 +9,7 @@ main {
 
   >*:not(div){
     position: absolute;
+    transition: 1s;
   }
   >span{
     border-radius: 50%;
@@ -17,16 +18,16 @@ main {
   }
   >.smallcircle{
     background: $small;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     top: 10%;
     left: 10%;
   }
   >.bigcircle{
     background: $big;
-    width: 600px;
-    height: 600px;
-    top: 50%;
+    width: 400px;
+    height: 400px;
+    top: 38%;
     left: 50%;
   }
   >.glass{
