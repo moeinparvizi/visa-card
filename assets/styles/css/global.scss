@@ -1,4 +1,11 @@
 // moein parvizi : https://github.com/moeinparvizi
+
+// fonts
+@font-face {
+  font-family: 'visa';
+  src: url('../fonts/PaytoneOne-Regular.ttf');
+}
+
 // repetitious codes
 body{
   overflow: hidden;
@@ -15,9 +22,10 @@ body{
   }
 }
 
-//  ****************variable********************
+//  ****************variables********************
 // colors
-$bg : #005FA3;
+$bg1 : #006FBE;
+$bg2 : #004476;
 $big :#1DB0FE;
 $small : #E8D498;
 $w : #fff;

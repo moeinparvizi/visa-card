@@ -1,11 +1,13 @@
 @import 'global';
 
 main {
-  background: $bg;
+  background: linear-gradient(135deg ,$bg1, $bg2);
+  font-family: 'visa';
+ 
   height: 100vh;
   overflow: hidden;
 
-  >*{
+  >*:not(div){
     position: absolute;
   }
   >span{
@@ -28,9 +30,60 @@ main {
     left: 50%;
   }
   >.glass{
-    background: $w;
+    background: linear-gradient(135deg , rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    // for other browsers
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border-radius: 35px;
     width: 400px;
     height: 600px;
-    border-radius: 35px;
+
+    >.glass-in{
+      width: 100%;
+      height: 100%;
+
+      >figure{
+        >img{
+          width: 100px;
+          transform: rotate(90deg);
+        }
+      }
+      >.glass-in-inputs{
+        position: absolute;
+        top: 65%;
+
+        >*:not(p){
+          margin: 20px;
+        }
+        >input{
+          border: none;
+          outline: none;
+          background: none;
+          border-radius: 8px;
+          padding: 5px;
+          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+          color: $w;
+
+          &:focus{
+            background: rgba(0,0,0,0.2);
+          }
+          &[type=button]{
+            background: rgba(0,0,0,0.1);
+            transition: .6s;
+  
+            &:hover{
+              background: rgba(0,0,0,0.2);
+            }
+          }
+          &::placeholder{
+            color: rgba(255,255,255,0.5);
+          }
+        }
+        >p{
+          color: $w;
+        }
+      }
+    }
   }
 }
