@@ -67,12 +67,9 @@ moein parvizi
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![image_2023-08-11_16-30-04](https://github.com/moeinparvizi/visa-card/assets/38692466/6aa5caa6-4c8e-4414-a179-10661da8bf3a)
-![photo_2023-08-11_16-35-39](https://github.com/moeinparvizi/visa-card/assets/38692466/0e39186d-2d13-4f05-8009-9f347ca09226)
-![photo_2023-08-11_16-35-51](https://github.com/moeinparvizi/visa-card/assets/38692466/575546ff-e23b-43c3-83be-2fe26779479e)
-![photo_2023-08-11_16-35-59](https://github.com/moeinparvizi/visa-card/assets/38692466/88c7f134-1156-4c89-a4c4-98bfbf8ae79d)
-![photo_2023-08-11_16-36-05](https://github.com/moeinparvizi/visa-card/assets/38692466/73cca81f-acf3-4b39-b483-616dfec72724)
-![photo_2023-08-11_16-36-12](https://github.com/moeinparvizi/visa-card/assets/38692466/39b92806-2a32-4eb9-980b-e29631889d2c)
+![image_2023-09-08_20-08-39](https://github.com/moeinparvizi/visa-card/assets/38692466/2bf5c11a-cf36-425a-b668-84c37d11db14)
+![image_2023-09-08_20-09-13](https://github.com/moeinparvizi/visa-card/assets/38692466/52e23203-567d-4a2a-ae38-28fbf0781358)
+![image_2023-09-08_20-09-47](https://github.com/moeinparvizi/visa-card/assets/38692466/d1363fab-03aa-4c8d-8240-3c01996089f0)
 
 
 Hints :
