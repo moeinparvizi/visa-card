@@ -98,7 +98,7 @@ hi my name is moein parvizi and i write this project a card checker with html cs
 
 * [![html][html5]][HTML5]
 * [![CSS3][CSS3]][CSS3]
-* [![Bootstrap][Bootstrap.com][Bootstrap.com]
+* [![Bootstrap.com][Bootstrap.com]][Bootstrap.com]
 * [![SASS][SASS]][SASS]
 * [![JavaScript][JavaScript]][JavaScript]
 * [SweetAlert2](https://sweetalert2.github.io)
