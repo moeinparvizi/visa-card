@@ -57,7 +57,12 @@ main {
         >*:not(p){
           margin: 20px;
         }
-        >input{
+        >.numbers{
+          >input{
+            width: 45px;
+          }
+        }
+        input{
           border: none;
           outline: none;
           background: none;

@@ -3,6 +3,7 @@ const card = document.querySelector('.glass')
 const big = document.querySelector('.bigcircle')
 const small = document.querySelector('.smallcircle')
 const main = document.getElementsByTagName('main')[0]
+
 // variables
 let x, y, w, h, op
 

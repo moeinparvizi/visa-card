@@ -22,7 +22,13 @@
           <img src="assets/images/chip.png" alt="chip of card">
         </figure>
         <div class="glass-in-inputs">
-          <input type="text" class="numb" placeholder="6666-6666-6666-6666">
+          <div class="numbers d-flex">
+            <input type="text" maxlength="4" class="numb numb1" placeholder="6666">-
+            <input type="text" maxlength="4" class="numb numb2" placeholder="6666">-
+            <input type="text" maxlength="4" class="numb numb3" placeholder="6666">-
+            <input type="text" maxlength="4" class="numb numb4" placeholder="6666">
+            <input type="button" value="clear" class="clear">
+          </div>
           <input type="text" class="name" placeholder="moein parvizi">
           <input type="button" class="send" role="button" value="send">
           <p class="text-end h3 px-5">visa</p>
@@ -31,6 +37,7 @@
     </div>
   </main>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="assets/js/hoverEffect.js"></script>
 <script src="assets/js/operations.js"></script>
 
